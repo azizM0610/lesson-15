@@ -31,13 +31,13 @@ console.log(child);
 // 3. Получить все ключи в новую переменную ключи
 
 let keys = Object.keys(child.boy).concat(Object.keys(child.girl));
-// console.log(keys);
+console.log(keys);
 
 
 // 4. Получить все значени в новую переменную значения
 
 let values = Object.values(child.boy).concat(Object.values(child.girl));
-// console.log(values)
+console.log(values)
 
 
 // 5. Отфильтровать все данные по их типу строки в строки цифры в цифры
@@ -48,11 +48,11 @@ let types = {
     object: [],
     boolean: []
 };
+console.log(types);
 
-console.log(
-    // Object.assign({}, {boy, girl}),
-    Object.entries(child),
-    Object.keys(boy),
-    Object.values(child.boy).concat(Object.keys(child.girl)),
-    types,
-);
+// console.log(
+//     // Object.assign({}, {boy, girl}),
+//     Object.entries(child),
+//     Object.keys(child),
+//     Object.values(child.boy).concat(Object.keys(child.girl)),
+// );
